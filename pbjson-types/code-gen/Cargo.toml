@@ -7,6 +7,10 @@ publish = false
 
 [dependencies]
 clap = { version = "3", features = ["derive"] }
-prost-build = "0.11"
 pbjson-build = { path = "../../pbjson-build", version = "0.5" }
+prettyplease = "0.1.21"
+proc-macro2 = "1.0.46"
+prost-build = "0.11"
+quote = "1.0.21"
+syn = { version = "1.0.102", features = ["full"] }
 tempfile = "3.3.0"
